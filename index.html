@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eco</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="header__wrapper">
+      <div class="header__logo">
+        <a href="https://in-lp.com/ageinghouse_flathouse/">
+          <img src="https://eco-build.co.jp/wp-content/themes/eco-build/img/recruit/header_img_01_pc.svg" />
+        </a>
+      </div>
+      <div class="header__box">
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li class="header__nav__list__item">
+              <a class="header__nav__list__item__link js-sp-menu" href="#top">Top</a>
+            </li>
+            <li class="header__nav__list__item">
+              <a class="header__nav__list__item__link js-sp-menu" href="#message">Message</a>
+            </li>
+            <li class="header__nav__list__item">
+              <a class="header__nav__list__item__link js-sp-menu" href="#member">Member</a>
+            </li>
+            <li class="header__nav__list__item">
+              <a class="header__nav__list__item__link js-sp-menu" href="#recruitment">Recruitment</a>
+            </li>
+          </ul>
+      </div>
+      <div class="header__button">
+        <a href="">
+          <img src="https://eco-build.co.jp/wp-content/themes/eco-build/img/recruit/header_img_02_pc.svg" />
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- fv -->
+  <main class="fv" id="fv">
+    <!-- <div class="fv__slider">
+      <div class="fv__slider--cnt">
+        <img class="img-pc" src="https://eco-build.co.jp/wp-content/themes/eco-build/img/recruit/mv_img_04_pc.png">
+      </div>
+      <div class="fv__slider--cnt">
+        <img class="img-pc" src="https://eco-build.co.jp/wp-content/themes/eco-build/img/recruit/mv_img_04_pc.png">
+      </div>
+    </div> -->
+
+    <div class="fv__bg">
+      <img src="https://eco-build.co.jp/wp-content/themes/eco-build/img/recruit/mv_img_04_pc.png" />
+      <h1 class="fv__title">
+        <span class="fv__title__01">環境にやさしい家づくりを</span>
+        <span class="fv__title__02">共に、カタチに。</span>
+      </h1>
+    </div>
+  </main>
+
+  <!-- concept -->
+  <section class="concept" id="concept">
+    <div class="concept__bg">
+      <div class="concept__container">
+        <h2 class="concept__title">
+          <span>Concept</span>
+        </h2>
+        <h3 class="concept__sub-title">
+          <div>お客様も社員も<span>ワクワク</span>する</div>
+          <div>家づくりを目指して。</div>
+        </h3>
+        <p class="concept__text">
+          我々は、お客さまが住んでからも「より満足」してもらえるような家づくりにこだわっております。<br>
+          お客様の普段の生活や、大切にしていること、家づくりへの想いに寄り添い<br>
+          家をつくることは、お客様はもちろんのこと、それに携わる社員もワクワクすることができます。<br>
+          そんな家づくりを常に目指しております。<br>
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- message-->
+  <section class="message" id="message">
+    <div class="message__bg">
+      <div class="message__container">
+        <div class="message__wrapper">
+          <div class="message__text">
+            <h2 class="message__text__title">
+              <span>代表の挨拶</span><br>
+              <p>Message</p>
+            </h2>
+            <h3 class="message__text__sub-title">
+              やさしい家づくりを<br>
+              共に支えてくれる仲間を探しています。
+            </h3>
+            <p class="message__text__contents">
+              エコビルドが提案するくらしは、お客様も社員も<br>
+              「ワクワクをカタチに」すること。<br>
+              安心して健康で快適に暮らし、自然エネルギーを上手に使って環境に<br>
+              やさしい暮らしをして頂くことが大切と考えています。<br>
+              「デザイン」×「性能」×「施工力」を備え、環境負荷の少ない地球に<br>
+              やさしい家づくりを一緒にしませんか？<br>
+              <br>
+              <br>
+              <br>
+              代表取締役<br>
+              <span>安成 信次</span>
+            </p>
+            <a class="message__text__btn" href="">
+              会社をよく知る
+            </a>
+          </div>
+          <div class="message__pic">
+            <img class="message__pic__photo" src="./img/message_img_01_sp.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about-us-->
+  <section class="about-us" id="about-us"></section>
+
+
+  <footer class="footer">
+  </footer>
+
+</body>
+<script>
+  $(function () {
+    $('.fv__slider').slick({
+      slidesToShow: 1,
+      autoplay: true,
+      fade: true,
+      autoplaySpeed: 1000,
+      arrows: false,
+      dots: false,
+      loop: true,
+      swipe: false,
+      speed: 1000,
+      touchMove: false,
+      pauseOnHover: false
+    });
+  });
+</script>
+
+</html>
