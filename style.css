@@ -25,17 +25,18 @@ a {
 .header {
   overflow: hidden;
   position: relative;
+  z-index: 999;
 }
 .header__wrapper {
+  width: 100%;
   display: flex;
   height: 150px;
   justify-content: space-between;
-  background: url(../img/header_bg_01_pc.png) no-repeat center;
+  background: url(./img/header_bg_01_pc.png) no-repeat center;
+  position: fixed;
 }
 .header__logo {
   width: 123px;
-  height: 68px;
-  padding-top: 80px;
   margin-left: 30px;
   display: flex;
   align-items: center;
@@ -62,8 +63,8 @@ a {
 }
 .header__nav__list__item {
   font-family: "Noto Serif JP";
-  font-size: 28px;
-  margin-right: 30px;
+  font-size: 2rem;
+  margin-right: 60px;
 }
 .header__nav__list__item a {
   color: #35763c;
@@ -79,7 +80,7 @@ a {
   margin-bottom: 5px;
 }
 .header__button {
-  background: url(../img/header_img_03_pc.png) no-repeat center;
+  background: url(./img/header_img_03_pc.png) no-repeat center;
   width: 150px;
   height: 150px;
   position: absolute;
@@ -93,35 +94,13 @@ a {
 .fv {
   overflow: hidden;
 }
-.fv__slider {
-  overflow: hidden;
-  width: 100%;
-  opacity: 0;
-  position: relative;
-  z-index: 1;
-}
-.fv__slider.slick-initialized {
-  opacity: 1;
-}
-.fv__slider--cnt {
-  width: 100%;
-  height: 100vh;
-}
-.fv__slider--cnt img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center bottom;
-}
-.fv__slider--cnt img.img-pc {
-  display: block;
-}
 .fv__bg {
   width: 100%;
   padding-bottom: 10%;
 }
 .fv__bg img {
   width: 100%;
+  object-fit: contain;
 }
 .fv__title {
   width: 500px;
@@ -130,20 +109,13 @@ a {
   top: 30%;
   left: 15%;
 }
-.fv__title__01 {
-  background: url(../img/mv_bg_01_pc.png) no-repeat center;
+.fv__title__text {
+  background: url(./img/mv_bg_01_pc.png) no-repeat center;
   color: #fff;
-  font-size: 30px;
+  font-size: 3rem;
   padding: 2% 6%;
   display: inline-block;
   margin-bottom: 32px;
-}
-.fv__title__02 {
-  background: url(../img/mv_bg_01_pc.png) no-repeat center;
-  color: #fff;
-  font-size: 30px;
-  padding: 2% 6%;
-  display: inline-block;
 }
 
 .concept {
@@ -161,7 +133,7 @@ a {
   position: absolute;
 }
 .concept__bg {
-  background: url(../img/concept_bg_01_pc.png) no-repeat center top 190px;
+  background: url(./img/concept_bg_01_pc.png) no-repeat center top 190px;
   width: 100%;
   height: 100%;
 }
@@ -170,6 +142,7 @@ a {
   max-width: 1200px;
   height: 100%;
   margin: 0 auto;
+  padding: 0 20px;
   width: 100%;
   height: 100%;
 }
@@ -178,7 +151,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 28px;
+  font-size: 2.8rem;
   font-weight: normal;
 }
 .concept__title::before {
@@ -198,7 +171,7 @@ a {
   align-items: center;
   text-align: center;
   font-family: "Noto Serif JP";
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: normal;
 }
 .concept__sub-title span {
@@ -222,17 +195,18 @@ a {
 .message__bg {
   width: 100%;
   height: 100%;
-  background: url(../img/message_bg_01_pc.png) no-repeat center;
+  background: url(./img/message_bg_01_pc.png) no-repeat top center;
 }
 .message__container {
   position: relative;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1240px;
+  padding: 0 20px;
 }
 .message__wrapper {
   display: flex;
   width: 100%;
-  padding-top: 10%;
+  padding-top: 100px;
 }
 .message__text {
   width: 70%;
@@ -243,10 +217,10 @@ a {
 }
 .message__text__title span {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 .message__text__title p {
-  font-size: 50px;
+  font-size: 5rem;
 }
 .message__text__title p::before {
   content: "";
@@ -261,10 +235,9 @@ a {
 }
 .message__text__sub-title {
   font-family: "Noto Serif JP";
-  font-size: 18px;
   font-weight: normal;
   padding: 32px 0 100px;
-  font-size: 30px;
+  font-size: 3rem;
 }
 .message__text__contents {
   font-family: "Noto Serif JP";
@@ -273,7 +246,7 @@ a {
   padding-bottom: 70px;
 }
 .message__text__contents span {
-  font-size: 30px;
+  font-size: 3rem;
 }
 .message__text__btn {
   display: inline-block;
