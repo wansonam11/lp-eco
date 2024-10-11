@@ -96,6 +96,11 @@
         <span class="fv__title__text">共に、カタチに。</span>
       </h1>
     </div>
+    <div class="fv__float">
+      <a href="#entryForm" class="fv__float__cta js-tab1">
+          <img src="./img/main_float-02.png" />
+      </a>
+  </div>
   </section>
 
   <!-- concept -->
@@ -167,16 +172,17 @@
           <p>About us</p>
         </h2>
         <div class="about-us__button">
-          <div class="about-us__button__btn active">
+          <div class="about-us__button__btn js-about-button active" data-number="01">
             長年業界に携わるプロだからできる<br>
             実績と信頼の施工
           </div>
-          <div class="about-us__button__btn">
+          <div class="about-us__button__btn js-about-button" data-number="02">
             安成工務店グループだからこその<br>
             確かな施工力
           </div>
         </div>
-        <div class="about-us__wrapper">
+        <!-- contents01 -->
+        <div class="about-us__wrapper about-result-item-01">
           <div class="about-us__text">
             <h3 class="about-us__text__title">
               長年業界に携わるプロだからできる<br>実績と信頼の施工
@@ -185,7 +191,6 @@
               エコビルドでは、長年お客様の要望を叶えてきた実績と確かな技術を持ったメンバーが揃っております。<br>
               実際に施工実例を見ていただければ一目瞭然です。<br><br>
               それらを叶えたメンバーと共に切磋琢磨し技術力の向上を図れます。
-
             </p>
             <div class="about-us__text__button">
               <a class="" href="">
@@ -195,6 +200,26 @@
           </div>
           <div class="about-us__pic">
             <img class="about-us__pic__img" src="./img/about_img_01_pc.jpg">
+          </div>
+        </div>
+        <!-- contents02 -->
+        <div class="about-us__wrapper about-result-item-02" style="display: none;">
+          <div class="about-us__text">
+            <h3 class="about-us__text__title">
+              確かな施工力
+            </h3>
+            <p class="about-us__text__contents">
+              安成工務店グループだからこその<br>
+              確かな施工力
+            </p>
+            <div class="about-us__text__button">
+              <a class="" href="">
+                会社をよく知る
+              </a>
+            </div>
+          </div>
+          <div class="about-us__pic">
+            <img class="about-us__pic__img" src="./img/fv_bg.png">
           </div>
         </div>
       </div>
@@ -214,17 +239,15 @@
           <p>Recruitment</p>
         </h2>
         <div class="recruitment__button">
-          <div class="recruitment__button__btn active">
+          <div class="recruitment__button__btn js-recruitment-button active" data-number="01">
             設計
           </div>
-          <div class="recruitment__button__btn">
+          <div class="recruitment__button__btn js-recruitment-button" data-number="02">
             施工管理
           </div>
         </div>
-        <div class="recruitment__wrapper">
-          <p>
-
-          </p>
+        <!-- text-01 -->
+        <div class="recruitment__wrapper recruitment-result-item-01">
           <div class="recruitment__text">
             <p class="recruitment__text__contents">
               多彩な建築家の中から自分のイメージを共有する建築家を選んで創る「デザイナーズ省エネ住宅」の実施設計と自社注文住宅の計画/実施/監理業務をお任せします。
@@ -249,7 +272,58 @@
                 ◇アーキトレンド/ホームズ君を活用して、構造検討/温熱検討して設計に生かせます。<br>
                 ◇担当エリアは下関市、山陽小野田市、宇部市が中心となります。<br>
                 ◇長期の出張などはございません。
-
+              </p>
+            </div>
+            <div class="recruitment__text__item">
+              <h3 class="recruitment__text__item__title">入社後の流れ</h3>
+              <p class="recruitment__text__item__contents">
+                ◇外部研修有<br>
+                ◇デザインコードに準じて個性を生かした設計をして頂きます。<br>
+              </p>
+            </div>
+            <div class="recruitment__text__item">
+              <h3 class="recruitment__text__item__title">格取得支援制度</h3>
+              <p class="recruitment__text__item__contents">
+                あり<br>
+                国家資格である建築士資格取得費用を支援しています。<br>
+                ・スクール費用を援助(上限30万円)<br>
+                ・受験費用を援助<br>
+              </p>
+            </div>
+            <div class="recruitment__text__item">
+              <h3 class="recruitment__text__item__title">組織構成</h3>
+              <p class="recruitment__text__item__contents">
+                ◇本社には13名が在籍しています。内訳は、営業5名（男性3名、女性2名※30代～50 代）、施工管理1名（40代男性）、設計2名、総務1名、電気工事担当2名、基礎工事 担当1名です。
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- text-02 -->
+        <div class="recruitment__wrapper recruitment-result-item-02" style="display: none;">
+          <div class="recruitment__text">
+            <p class="recruitment__text__contents">
+              地域で温熱、構造、デザインに優れた設計で差別化を図っています
+            </p>
+            <div class="recruitment__text__item">
+              <h3 class="recruitment__text__item__title">主な業務内容</h3>
+              <p class="recruitment__text__item__contents">
+                ◇担当エリアは下関市、山陽小野田市、宇部市が中心となります。<br>
+                ◇自社設計は、設計コードに準じて自由な発想で提案してもらいます<br>
+                ◇地域で温熱、構造、デザインに優れた設計で差別化を図っています。<br>
+              </p>
+            </div>
+            <div class="recruitment__text__item">
+              <h3 class="recruitment__text__item__title">業務の特徴</h3>
+              <p class="recruitment__text__item__contents">
+                ◇地域で温熱、構造、デザインに優れた設計で差別化を図っています。<br>
+                ◇建築家の打ち合わせに同席して、設計手法の視野を広げられます。<br>
+                ◇自社設計は、設計コードに準じて自由な発想で提案してもらいます。<br>
+                ◇若手設計の指導をして頂きます。<br>
+                ◇長期優良住宅(設計性能評価に準ずる)を全棟標準としています。<br>
+                ◇各種申請業務、事前調査。<br>
+                ◇アーキトレンド/ホームズ君を活用して、構造検討/温熱検討して設計に生かせます。<br>
+                ◇担当エリアは下関市、山陽小野田市、宇部市が中心となります。<br>
+                ◇長期の出張などはございません。
               </p>
             </div>
             <div class="recruitment__text__item">
@@ -299,6 +373,16 @@
 
 </body>
 <script>
+
+  $(window).scroll(function () {
+    let scroll = $(window).scrollTop();
+    if (scroll >= 100) {
+      $(".header").addClass("is-scrolled");
+    } else {
+      $(".header").removeClass("is-scrolled");
+    }
+  });
+
   $(function () {
     $('.fv__slider').slick({
       slidesToShow: 1,
@@ -327,15 +411,60 @@
       $('.ham-menu').removeClass('active');
     });
 
-
-    $(window).resize(function () {
-      if ($(window).width() >= 1100) {
-        $('.header').removeClass('active');
-        $('.ham-menu').removeClass('active');
-      }
-    });
-
+    // $(window).resize(function () {
+    //   if ($(window).width() >= 1100) {
+    //     $('.header').removeClass('active');
+    //     $('.ham-menu').removeClass('active');
+    //   }
+    // });
   });
+
+  $('.js-about-button').on('click', function () {
+    let number = $(this).attr('data-number');
+
+    $('.about-us__wrapper').css('display', 'none');
+    $(`.about-result-item-${number}`).fadeIn();
+    $('.about-us__button__btn').removeClass('active');
+    $(this).addClass('active');
+  });
+
+  $('.js-recruitment-button').on('click', function () {
+    let number = $(this).attr('data-number');
+
+    $('.recruitment__wrapper').css('display', 'none');
+    $(`.recruitment-result-item-${number}`).fadeIn();
+    $('.recruitment__button__btn').removeClass('active');
+    $(this).addClass('active');
+  });
+
+  $(function() {
+        let floatingElement = $('.fv__float');
+
+        let hideTriggerElement = $('#footer');
+        let headerElement = $('#header');
+
+        function checkFloatingVisibility() {
+            let scrollPosition = $(window).scrollTop();
+            let windowHeight = $(window).height();
+
+            //footer calc
+            let footerTriggerPoint = hideTriggerElement.offset().top - windowHeight;
+
+            //header calc
+            let triggerPoint = hideTriggerElement.offset().top - windowHeight;
+            let headerTriggerPoint = headerElement.offset().top + headerElement.outerHeight();
+
+            if (scrollPosition > headerTriggerPoint && scrollPosition < footerTriggerPoint) {
+                floatingElement.fadeIn();
+            } else {
+                floatingElement.fadeOut();
+            }
+        }
+
+        $(window).on('scroll', checkFloatingVisibility);
+
+        checkFloatingVisibility();
+    });
 </script>
 
 </html>

@@ -29,6 +29,16 @@ a {
   position: relative;
   z-index: 999;
 
+  &.is-scrolled {
+    top: 0;
+    
+    .header__wrapper {
+      background: none;
+      background-color: rgba(192, 222, 204, 0.7);
+      
+    }
+  }
+
   &__wrapper {
     width: 100%;
     display: flex;
@@ -260,7 +270,10 @@ a {
       padding: 0;
       display: flex;
       justify-content: center;
-      overflow-y: scroll;
+      overflow-y: auto;
+      height: 100vh;
+      //margin-top: 100px;
+
     }
 
     .header__nav__list {
@@ -357,6 +370,15 @@ a {
         font-size: 2rem;
       }
     }
+  }
+
+  &__float {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 999;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -773,7 +795,8 @@ a {
       margin-bottom: 10%;
     }
 
-    &__btn {    
+    &__btn {   
+      cursor: pointer; 
       width: calc(50% - 30px);
       margin-right: 60px;
       display: flex;
@@ -995,6 +1018,7 @@ a {
     margin-bottom: 60px;
 
     &__btn {
+      cursor: pointer; 
       width: calc(50% - 30px);
       margin-right: 60px;
       display: flex;

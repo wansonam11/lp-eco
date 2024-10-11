@@ -27,6 +27,13 @@ a {
   position: relative;
   z-index: 999;
 }
+.header.is-scrolled {
+  top: 0;
+}
+.header.is-scrolled .header__wrapper {
+  background: none;
+  background-color: rgba(192, 222, 204, 0.7);
+}
 .header__wrapper {
   width: 100%;
   display: flex;
@@ -276,7 +283,8 @@ a {
   padding: 0;
   display: flex;
   justify-content: center;
-  overflow-y: scroll;
+  overflow-y: auto;
+  height: 100vh;
 }
 .header.active .header__nav__list {
   flex-direction: column;
@@ -364,6 +372,14 @@ a {
   .fv__title__text {
     font-size: 2rem;
   }
+}
+.fv__float {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  z-index: 999;
+  width: 200px;
+  height: 200px;
 }
 
 .concept {
@@ -846,6 +862,7 @@ a {
   }
 }
 .about-us__button__btn {
+  cursor: pointer;
   width: calc(50% - 30px);
   margin-right: 60px;
   display: flex;
@@ -1099,6 +1116,7 @@ a {
   margin-bottom: 60px;
 }
 .recruitment__button__btn {
+  cursor: pointer;
   width: calc(50% - 30px);
   margin-right: 60px;
   display: flex;
