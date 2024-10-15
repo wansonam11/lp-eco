@@ -773,6 +773,9 @@ a {
   width: 100%;
 }
 
+.about-us {
+  padding-bottom: 40px;
+}
 .about-us__bg {
   background: url(./img/about_bg_01_pc.png) no-repeat top center;
   background-size: cover;
@@ -1027,7 +1030,7 @@ a {
 .recruitment__bg {
   background: url(./img/about_bg_01_pc.png) no-repeat top center;
   background-size: cover;
-  padding: 120px 0;
+  padding-bottom: 40px;
 }
 .recruitment__container {
   width: 100%;
@@ -1601,13 +1604,10 @@ a {
 }
 .accordion__button {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
   margin-bottom: 30px;
 }
 .accordion__button__btn {
   cursor: pointer;
-  width: calc(50% - 30px);
   margin-right: 60px;
   display: flex;
   flex-wrap: wrap;
@@ -1730,7 +1730,7 @@ a {
 .works__bg {
   background: url(./img/about_bg_01_pc.png) no-repeat top center;
   background-size: cover;
-  padding: 120px 0;
+  padding-bottom: 20px;
 }
 .works__container {
   width: 100%;

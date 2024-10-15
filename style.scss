@@ -788,6 +788,7 @@ a {
 
 //about-us
 .about-us {
+  padding-bottom: 40px;
 
   &__bg {
     background: url(./img/about_bg_01_pc.png) no-repeat top center;
@@ -1037,7 +1038,7 @@ a {
   &__bg {
     background: url(./img/about_bg_01_pc.png) no-repeat top center;
     background-size: cover;
-    padding: 120px 0;
+    padding-bottom: 40px;
   }
 
   &__container {
@@ -1612,13 +1613,10 @@ a {
 
   &__button {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
     margin-bottom: 30px;
 
     &__btn {
       cursor: pointer;
-      width: calc(50% - 30px);
       margin-right: 60px;
       display: flex;
       flex-wrap: wrap;
@@ -1744,7 +1742,7 @@ a {
   &__bg {
     background: url(./img/about_bg_01_pc.png) no-repeat top center;
     background-size: cover;
-    padding: 120px 0;
+    padding-bottom: 20px;
   }
 
   &__container {
