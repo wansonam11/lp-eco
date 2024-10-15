@@ -1616,6 +1616,7 @@ a {
     margin-bottom: 30px;
 
     &__btn {
+      width: 100%;
       cursor: pointer;
       margin-right: 60px;
       display: flex;
@@ -1628,12 +1629,6 @@ a {
       background-color: #eee;
       font-size: 2.6rem;
       border: 1px solid #60af49;
-      .scroll-down {
-        display: block;
-      }
-      .scroll-up {
-        display: none;
-      }
 
       @media screen and (max-width: 640px) {
         width: 49.5%;
@@ -1652,6 +1647,7 @@ a {
 
       @media screen and (max-width: 1024px) {
         height: 65px;
+        width: 100%;
       }
 
       @media screen and (max-width: 640px) {
