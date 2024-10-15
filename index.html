@@ -4,12 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
   <link href="https://in-lp.com/css/slick.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css" />
+  <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
+  <link rel="stylesheet" href="slider.css" />
   <title>eco</title>
 </head>
 
@@ -98,9 +101,9 @@
     </div>
     <div class="fv__float">
       <a href="#entryForm" class="fv__float__cta js-tab1">
-          <img src="./img/main_float-02.png" />
+        <img src="./img/main_float-02.png" />
       </a>
-  </div>
+    </div>
   </section>
 
   <!-- concept -->
@@ -355,6 +358,439 @@
     </div>
   </section>
 
+  <!-- merit -->
+  <section class="merit" id="merit">
+    <div class="merit__bg">
+      <div class="merit__container">
+        <h2 class="merit__title">
+          <span>メリット</span><br>
+          <p>Merit</p>
+        </h2>
+        <div class="merit__box">
+          <div class="merit__box__item" data-slide="0">
+            <div class="merit__box__item__txt">
+              <span>merit 01</span>
+              <p>
+                伸びやかで<br>
+                開放的な住空間
+              </p>
+            </div>
+          </div>
+          <div class="merit__box__item" data-slide="1">
+            <div class="merit__box__item__txt">
+              <span>merit 02</span>
+              <p>
+                伸びやかで<br>
+                開放的な住空間
+              </p>
+            </div>
+          </div>
+          <div class="merit__box__item" data-slide="2">
+            <div class="merit__box__item__txt">
+              <span>merit 03</span>
+              <p>
+                伸びやかで<br>
+                開放的な住空間
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="merit__slider" id="merit-slider">
+          <div class="merit__slider__btn">
+            <div class="slick-prev-merit">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46"
+                viewBox="0 0 46 46">
+                <defs>
+                  <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                    <stop offset="0" stop-color="#024e21" />
+                    <stop offset="0.483" stop-color="#015824" />
+                    <stop offset="1" stop-color="#003214" />
+                  </linearGradient>
+                </defs>
+                <g id="グループ_25903" data-name="グループ 25903" transform="translate(46 46) rotate(180)">
+                  <path id="パス_20526" data-name="パス 20526" d="M23,0A23,23,0,1,1,0,23,23,23,0,0,1,23,0Z"
+                    transform="translate(0 0)" opacity="0.898" fill="url(#linear-gradient)" />
+                  <path id="caret-down-thin"
+                    d="M15.078.617l-7.23,7.23a.361.361,0,0,1-.512,0L.106.617A.362.362,0,0,1,.617.106L7.592,7.08,14.566.106a.362.362,0,1,1,.512.512Z"
+                    transform="translate(19.197 30.592) rotate(-90)" fill="#fff" />
+                </g>
+              </svg>
+            </div>
+            <div class="slick-next-merit">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46"
+                viewBox="0 0 46 46">
+                <defs>
+                  <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                    <stop offset="0" stop-color="#024e21" />
+                    <stop offset="0.483" stop-color="#015824" />
+                    <stop offset="1" stop-color="#003214" />
+                  </linearGradient>
+                </defs>
+                <g id="グループ_25902" data-name="グループ 25902" transform="translate(0)">
+                  <path id="パス_20526" data-name="パス 20526" d="M23,0A23,23,0,1,1,0,23,23,23,0,0,1,23,0Z"
+                    transform="translate(0 0)" opacity="0.898" fill="url(#linear-gradient)" />
+                  <path id="caret-down-thin"
+                    d="M15.078.617l-7.23,7.23a.361.361,0,0,1-.512,0L.106.617A.362.362,0,0,1,.617.106L7.592,7.08,14.566.106a.362.362,0,1,1,.512.512Z"
+                    transform="translate(19.197 30.592) rotate(-90)" fill="#fff" />
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="merit__slider__wrap">
+
+            <div class="merit__slider__list">
+              <div class="merit__slider__list__item">
+                <div class="merit__slider__list__item__eng">merit 01</div>
+                <h3 class="merit__slider__list__item__title">11111<br>開放的な住空間</h3>
+                <div class="merit__slider__list__item__txt">
+                  LDKと屋外空間がフラットにつながるをつくりを愉しむなど、アウトドアリビングとして開放感のあるくつろぎの時間を演出します。<br>
+                  また上下の移動がなく、ひと続きの空間は目線の距離が長く、広く感じやすい設計に。<br>
+                  周辺環境の緑なども取り入れやすく快適な住空間を実現します。
+                </div>
+              </div>
+              <div class="merit__slider__list__photo">
+                <img class="img-pc" src="img/fv_bg.png">
+              </div>
+            </div>
+            <div class="merit__slider__list">
+              <div class="merit__slider__list__item">
+                <div class="merit__slider__list__item__eng">merit 02</div>
+                <h3 class="merit__slider__list__item__title">22222<br>開放的な住空間</h3>
+                <div class="merit__slider__list__item__txt">
+                  LDKと屋外空間がフラットにつながるをつくりを愉しむなど、アウトドアリビングとして開放感のあるくつろぎの時間を演出します。<br>
+                  また上下の移動がなく、ひと続きの空間は目線の距離が長く、広く感じやすい設計に。<br>
+                  周辺環境の緑なども取り入れやすく快適な住空間を実現します。
+                </div>
+              </div>
+              <div class="merit__slider__list__photo">
+                <img class="img-pc" src="img/fv_bg.png">
+              </div>
+            </div>
+            <div class="merit__slider__list">
+              <div class="merit__slider__list__item">
+                <div class="merit__slider__list__item__eng">merit 03</div>
+                <h3 class="merit__slider__list__item__title">33333<br>開放的な住空間</h3>
+                <div class="merit__slider__list__item__txt">
+                  LDKと屋外空間がフラットにつながるをつくりを愉しむなど、アウトドアリビングとして開放感のあるくつろぎの時間を演出します。<br>
+                  また上下の移動がなく、ひと続きの空間は目線の距離が長く、広く感じやすい設計に。<br>
+                  周辺環境の緑なども取り入れやすく快適な住空間を実現します。
+                </div>
+              </div>
+              <div class="merit__slider__list__photo">
+                <img class="img-pc" src="img/fv_bg.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- accordion -->
+  <section class="accordion" id="accordion">
+    <div class="accordion__bg">
+      <div class="accordion__container">
+        <h2 class="accordion__title">
+          <div class="accordion__title__img">
+            <img class="accordion__title__img__pic" src="./img/recruitment_img_01_pc.png" alt="image">
+          </div>
+          <span>募集職種</span><br>
+          <p>Accordion</p>
+        </h2>
+        <div class="accordion__button">
+          <div class="accordion__button__btn js-accordion-button active" data-number="01">
+            <span class="scroll-down">設計</span>
+          </div>
+        </div>
+        <!-- text-01 -->
+        <div class="accordion__wrapper accordion-result-item-01">
+          <div class="accordion__text">
+            <p class="accordion__text__contents">
+              多彩な建築家の中から自分のイメージを共有する建築家を選んで創る「デザイナーズ省エネ住宅」の実施設計と自社注文住宅の計画/実施/監理業務をお任せします。
+            </p>
+            <div class="accordion__text__item">
+              <h3 class="accordion__text__item__title">主な業務内容</h3>
+              <p class="accordion__text__item__contents">
+                ◇注文住宅の計画/実施設計/監理<br>
+                ◇設計システム構築<br>
+                ◇住宅性能向上検討<br>
+              </p>
+            </div>
+            <div class="accordion__text__item">
+              <h3 class="accordion__text__item__title">業務の特徴</h3>
+              <p class="accordion__text__item__contents">
+                ◇地域で温熱、構造、デザインに優れた設計で差別化を図っています。<br>
+                ◇建築家の打ち合わせに同席して、設計手法の視野を広げられます。<br>
+                ◇自社設計は、設計コードに準じて自由な発想で提案してもらいます。<br>
+                ◇若手設計の指導をして頂きます。<br>
+                ◇長期優良住宅(設計性能評価に準ずる)を全棟標準としています。<br>
+                ◇各種申請業務、事前調査。<br>
+                ◇アーキトレンド/ホームズ君を活用して、構造検討/温熱検討して設計に生かせます。<br>
+                ◇担当エリアは下関市、山陽小野田市、宇部市が中心となります。<br>
+                ◇長期の出張などはございません。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion__button">
+          <div class="accordion__button__btn js-accordion-button" data-number="02">
+            施工管理
+          </div>
+        </div>
+        <!-- text-02 -->
+        <div class="accordion__wrapper accordion-result-item-02" style="display: none;">
+          <div class="accordion__text">
+            <p class="accordion__text__contents">
+              222/実施/監理業務をお任せします。
+            </p>
+            <div class="accordion__text__item">
+              <h3 class="accordion__text__item__title">22主な業務内容</h3>
+              <p class="accordion__text__item__contents">
+                2注文住宅の計画/実施設計/監理<br>
+                ◇設計システム構築<br>
+                ◇住宅性能向上検討<br>
+              </p>
+            </div>
+            <div class="accordion__text__item">
+              <h3 class="accordion__text__item__title">業務の特徴</h3>
+              <p class="accordion__text__item__contents">
+                ◇地域で温熱、構造、デザインに優れた設計で差別化を図っています。<br>
+                ◇建築家の打ち合わせに同席して、設計手法の視野を広げられます。<br>
+                ◇自社設計は、設計コードに準じて自由な発想で提案してもらいます。<br>
+                ◇若手設計の指導をして頂きます。<br>
+                ◇長期優良住宅(設計性能評価に準ずる)を全棟標準としています。<br>
+                ◇各種申請業務、事前調査。<br>
+                ◇アーキトレンド/ホームズ君を活用して、構造検討/温熱検討して設計に生かせます。<br>
+                ◇担当エリアは下関市、山陽小野田市、宇部市が中心となります。<br>
+                ◇長期の出張などはございません。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- works -->
+  <section class="works" id="works">
+    <div class="works__bg">
+      <div class="works__container">
+        <h2 class="works__title">
+          <div class="works__title__img">
+            <img class="works__title__img__pic" src="./img/recruitment_img_01_pc.png" alt="image">
+          </div>
+          <span>施工事例</span><br>
+          <p>Works</p>
+        </h2>
+        <div class="works__inner">
+          <div class="works__inner--cnt">
+            <div class="works__inner--data">
+              <span class="works__inner--data--01">
+                Works 01
+              </span>
+            </div>
+            <div class="works-single">
+              <div class="works-single__headline">
+                <div class="content__inner">
+                  <div class="single-works-slider">
+                    <div class="single-works-slider-photo">
+                      <div class="single-works-slider-main">
+                        <div class="single-works-slider-list-01 single-works-slider-list">
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup1" class="gallery">
+                              <img src="./img/main_bg-01.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup1" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-01.png">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup2" class="gallery">
+                              <img src="./img/main_bg-02.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup2" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-02.png">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup3" class="gallery">
+                              <img src="./img/main_bg-03.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup3" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-03.png">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup4" class="gallery">
+                              <img src="./img/main_bg-01.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup4" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-01.png">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup5" class="gallery">
+                              <img src="./img/main_bg-02.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup5" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-02.png">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup6" class="gallery">
+                              <img src="./img/main_bg-03.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup6" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-03.png">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup7" class="gallery">
+                              <img src="./img/main_bg-01.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup7" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-01.png">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup8" class="gallery">
+                              <img src="./img/main_bg-02.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup8" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-02.png">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup9" class="gallery">
+                              <img src="./img/main_bg-03.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup9" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-03.png">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup10" class="gallery">
+                              <img src="./img/main_bg-01.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup10" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-01.png">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="single-works-slider-list-item">
+                            <a href="#popup11" class="gallery">
+                              <img src="./img/main_bg-02.png">
+                              <i class="fas fa-search-plus" style="pointer-events: all"></i>
+                            </a>
+                            <div id="popup11" class="mfp-hide">
+                              <div class="single-works-popup">
+                                <img src="./img/main_bg-02.png">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="detailsPhoto__thumb y-scroll">
+                        <div class="detailsPhoto__thumb-inner">
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-01.png">
+                            </figure>
+                          </div>
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-02.png">
+                            </figure>
+                          </div>
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-03.png">
+                            </figure>
+                          </div>
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-01.png">
+                            </figure>
+                          </div>
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-02.png">
+                            </figure>
+                          </div>
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-03.png">
+                            </figure>
+                          </div>
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-01.png">
+                            </figure>
+                          </div>
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-02.png">
+                            </figure>
+                          </div>
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-03.png">
+                            </figure>
+                          </div>
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-01.png">
+                            </figure>
+                          </div>
+                          <div class="panel-item1 panel-item">
+                            <figure>
+                              <img src="./img/main_bg-02.png">
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- footer-->
   <footer class="footer" id="footer">
     <div class="footer__container">
@@ -374,6 +810,7 @@
 </body>
 <script>
 
+  //scroll
   $(window).scroll(function () {
     let scroll = $(window).scrollTop();
     if (scroll >= 100) {
@@ -383,6 +820,7 @@
     }
   });
 
+  //fv slide
   $(function () {
     $('.fv__slider').slick({
       slidesToShow: 1,
@@ -399,6 +837,7 @@
     });
   });
 
+  //hamburger
   $(function () {
     $(".ham-menu").click(function () {
       $(this).toggleClass('active');
@@ -419,6 +858,7 @@
     // });
   });
 
+  //click event-01
   $('.js-about-button').on('click', function () {
     let number = $(this).attr('data-number');
 
@@ -428,6 +868,7 @@
     $(this).addClass('active');
   });
 
+  //click event-02
   $('.js-recruitment-button').on('click', function () {
     let number = $(this).attr('data-number');
 
@@ -437,34 +878,148 @@
     $(this).addClass('active');
   });
 
-  $(function() {
-        let floatingElement = $('.fv__float');
+  //float
+  $(function () {
+    let floatingElement = $('.fv__float');
 
-        let hideTriggerElement = $('#footer');
-        let headerElement = $('#header');
+    let hideTriggerElement = $('#footer');
+    let headerElement = $('#header');
 
-        function checkFloatingVisibility() {
-            let scrollPosition = $(window).scrollTop();
-            let windowHeight = $(window).height();
+    function checkFloatingVisibility() {
+      let scrollPosition = $(window).scrollTop();
+      let windowHeight = $(window).height();
 
-            //footer calc
-            let footerTriggerPoint = hideTriggerElement.offset().top - windowHeight;
+      //footer calc
+      let footerTriggerPoint = hideTriggerElement.offset().top - windowHeight;
 
-            //header calc
-            let triggerPoint = hideTriggerElement.offset().top - windowHeight;
-            let headerTriggerPoint = headerElement.offset().top + headerElement.outerHeight();
+      //header calc
+      let triggerPoint = hideTriggerElement.offset().top - windowHeight;
+      let headerTriggerPoint = headerElement.offset().top + headerElement.outerHeight();
 
-            if (scrollPosition > headerTriggerPoint && scrollPosition < footerTriggerPoint) {
-                floatingElement.fadeIn();
-            } else {
-                floatingElement.fadeOut();
-            }
-        }
+      if (scrollPosition > headerTriggerPoint && scrollPosition < footerTriggerPoint) {
+        floatingElement.fadeIn();
+      } else {
+        floatingElement.fadeOut();
+      }
+    }
 
-        $(window).on('scroll', checkFloatingVisibility);
+    $(window).on('scroll', checkFloatingVisibility);
 
-        checkFloatingVisibility();
+    checkFloatingVisibility();
+  });
+
+  //slide 
+  $(function () {
+    $('.merit__slider__wrap').slick({
+      autoplay: true,
+      autoplaySpeed: 5000,
+      dots: false,
+      infinite: true,
+      speed: 500,
+      loop: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      touchMove: true,
+      prevArrow: $('.slick-prev-merit'),
+      nextArrow: $('.slick-next-merit')
     });
+
+    //슬라이더에서 beforeChange 이벤트가 발생할 때 updateSlideNumbers 함수가 호출됩니다. 즉, 슬라이더가 변경되기 직전의 슬라이드를 기준으로 처리됩니다.
+    $('.merit__slider__wrap').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+      updateSlideNumbers(nextSlide);
+    });
+
+    //클릭하면 페이지가 슬라이드 
+    $('.merit__box__item').on('click', function () {
+      var slideIndex = $(this).data('slide');
+      $('.merit__slider__wrap').slick('slickGoTo', slideIndex);
+    });
+
+    //버튼이 슬라이드에 맞춰 활성화
+    function updateSlideNumbers(activeSlide) {
+      $('.merit__box__item').removeClass('active').addClass('inactive');
+      $('.merit__box__item').eq(activeSlide).removeClass('inactive').addClass('active');
+    }
+    updateSlideNumbers(0);
+  });
+
+  //accordion 
+  $('.js-accordion-button').on('click', function () {
+    let number = $(this).attr('data-number');
+    $('.accordion__wrapper').slideUp();
+
+    let isOpen = $(`.accordion-result-item-${number}`).is(":visible")
+
+    $('.accordion__button__btn').removeClass('active');
+
+    if (!isOpen) {
+      let isOpen = $(`.accordion-result-item-${number}`).slideDown();
+    }
+    $(this).addClass('active');
+  });
+
+  //works
+  $(function () {
+    // サムネイル画像アイテムに data-index でindex番号を付与
+    function modal(slider, thumbnailItem) {
+      $(thumbnailItem).each(function () {
+        var index = $(thumbnailItem).index(this);
+        $(this).attr('data-index', index);
+      });
+
+      // スライダー初期化後、カレントのサムネイル画像にクラス「thumbnail-current」を付ける
+      // 「slickスライダー作成」の前にこの記述は書いてください。
+      $(slider).on('init', function (slick) {
+        var index = $('.single-works-slider-list-item.slick-slide.slick-current').attr('data-slick-index');
+        $(thumbnailItem + '[data-index="' + index + '"]').addClass('active');
+      });
+
+      //slickスライダー初期化
+      $(slider).slick({
+        autoplay: true,
+        infinite: true //これはつけましょう。
+      });
+      //サムネイル画像アイテムをクリックしたときにスライダー切り替え
+      $(thumbnailItem).on('click', function () {
+        var index = $(this).attr('data-index');
+        $(slider).slick('slickGoTo', index, false);
+      });
+
+      //サムネイル画像のカレントを切り替え
+      $(slider).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+        $(thumbnailItem).each(function () {
+          $(this).removeClass('active');
+        });
+        $(thumbnailItem + '[data-index="' + nextSlide + '"]').addClass('active');
+      });
+    }
+
+    modal('.single-works-slider-list-01', '.panel-item1');
+    // modal('.single-works-slider-list-02', '.panel-item2');
+
+    $(window).ready(() => {
+      $('.gallery').off('click');
+      $('.gallery').magnificPopup({
+        //	delegate: 'a',
+        type: 'inline',
+        removalDelay: 300,
+        gallery: {
+          enabled: true
+        }
+      });
+    });
+    // $(window).ready(() => {
+    //   $('.gallery2').off('click');
+    //   $('.gallery2').magnificPopup({
+    //     //	delegate: 'a',
+    //     type: 'inline',
+    //     removalDelay: 300,
+    //     gallery: {
+    //       enabled: true
+    //     }
+    //   });
+    // });
+  });
 </script>
 
 </html>
