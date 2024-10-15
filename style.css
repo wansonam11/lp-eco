@@ -384,6 +384,11 @@ a {
   width: 200px;
   height: 200px;
 }
+@media screen and (max-width: 640px) {
+  .fv__float {
+    display: none !important;
+  }
+}
 
 .concept {
   position: relative;
@@ -1318,6 +1323,11 @@ a {
   text-align: center;
   cursor: pointer;
 }
+@media screen and (max-width: 640px) {
+  .merit__box__item {
+    height: 19vh;
+  }
+}
 .merit__box__item::after {
   content: "";
   position: relative;
@@ -1337,6 +1347,11 @@ a {
 }
 .merit__box__item__txt {
   font-size: 2rem;
+}
+@media screen and (max-width: 435px) {
+  .merit__box__item__txt {
+    font-size: 1.2rem;
+  }
 }
 .merit__box__item__txt span {
   font-size: 1rem;
@@ -1360,13 +1375,15 @@ a {
   }
 }
 @media screen and (max-width: 640px) {
-  .merit__slider__btn .slick-prev-merit {
-    left: -25px;
-  }
   .merit__slider__btn .slick-prev-merit svg {
     width: 7.8125vw;
     height: 7.8125vw;
     padding-left: 20px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .merit__slider__btn .slick-prev-merit svg {
+    padding-left: 0;
   }
 }
 .merit__slider__btn .slick-next-merit {
@@ -1383,13 +1400,15 @@ a {
   }
 }
 @media screen and (max-width: 640px) {
-  .merit__slider__btn .slick-next-merit {
-    right: -25px;
-  }
   .merit__slider__btn .slick-next-merit svg {
     width: 7.8125vw;
     height: 7.8125vw;
     padding-right: 20px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .merit__slider__btn .slick-next-merit svg {
+    padding-right: 0;
   }
 }
 .merit__slider__list {
@@ -1490,7 +1509,7 @@ a {
 .accordion__bg {
   background: url(./img/about_bg_01_pc.png) no-repeat top center;
   background-size: cover;
-  padding: 100px 30px 0 0;
+  padding: 100px 0 30px 0;
 }
 .accordion__container {
   width: 100%;
