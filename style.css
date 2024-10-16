@@ -32,7 +32,7 @@ a {
 }
 .header.is-scrolled .header__wrapper {
   background: none;
-  background-color: rgba(192, 222, 204, 0.7);
+  background-color: rgba(213, 222, 204, 0.7);
 }
 .header__wrapper {
   width: 100%;
@@ -1621,6 +1621,12 @@ a {
   font-size: 2.6rem;
   border: 1px solid #60af49;
 }
+.accordion__button__btn .arrow {
+  transition: 0.5s;
+}
+.accordion__button__btn.active .arrow {
+  transform: rotate(180deg);
+}
 @media screen and (max-width: 640px) {
   .accordion__button__btn {
     width: 49.5%;
@@ -1858,6 +1864,38 @@ a {
 .works__inner--data--01 {
   color: #003214;
   font-family: "Bodoni Moda";
+}
+
+.y-scroll {
+  white-space: normal;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.y-scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 1px;
+}
+.y-scroll::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+.y-scroll::-webkit-scrollbar-thumb {
+  background: #015824;
+  border-radius: 0;
+}
+.y-scroll::-webkit-scrollbar-thumb:hover, .y-scroll::-webkit-scrollbar-thumb:active {
+  background: #015824;
+}
+.y-scroll::-webkit-scrollbar-track {
+  background: #ddd;
+  border: 0px none #ddd;
+  border-radius: 0;
+}
+.y-scroll::-webkit-scrollbar-track:hover, .y-scroll::-webkit-scrollbar-track:active {
+  background: #ddd;
+}
+.y-scroll::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0);
 }
 
 .footer {

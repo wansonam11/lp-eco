@@ -34,7 +34,7 @@ a {
 
     .header__wrapper {
       background: none;
-      background-color: rgba(192, 222, 204, 0.7);
+      background-color: rgba(213, 222, 204, 0.7);
 
     }
   }
@@ -408,6 +408,7 @@ a {
     z-index: 999;
     width: 200px;
     height: 200px;
+
     @media screen and (max-width: 640px) {
       display: none !important;
     }
@@ -1334,6 +1335,7 @@ a {
       padding: 20px 0;
       text-align: center;
       cursor: pointer;
+
       @media screen and (max-width: 640px) {
         height: 19vh;
       }
@@ -1352,17 +1354,20 @@ a {
       &.active {
         background-color: #60af49;
         color: #000;
+
         &::after {
-         background: url(./img/button.png) no-repeat center center / 100% auto;
+          background: url(./img/button.png) no-repeat center center / 100% auto;
         }
 
       }
 
       &__txt {
         font-size: 2rem;
+
         @media screen and (max-width: 435px) {
           font-size: 1.2rem;
         }
+
         span {
           font-size: 1rem;
         }
@@ -1384,6 +1389,7 @@ a {
         transform: translateY(-50%);
         z-index: 1;
         cursor: pointer;
+
         @media screen and (max-width: 1024px) {
           left: 0;
         }
@@ -1396,11 +1402,12 @@ a {
             padding-left: 20px;
           }
         }
+
         @media screen and (max-width: 435px) {
           svg {
             padding-left: 0;
+          }
         }
-      }
       }
 
 
@@ -1411,6 +1418,7 @@ a {
         transform: translateY(-50%);
         z-index: 1;
         cursor: pointer;
+
         @media screen and (max-width: 1024px) {
           right: 0;
         }
@@ -1423,6 +1431,7 @@ a {
             padding-right: 20px;
           }
         }
+
         @media screen and (max-width: 435px) {
           svg {
             padding-right: 0;
@@ -1433,15 +1442,18 @@ a {
 
     &__list {
       display: flex !important;
-      border-top: 1px solid #60af69; ;
+      border-top: 1px solid #60af69;
+      ;
       border-bottom: 1px solid #60af69;
       margin-bottom: 30px;
+
       @media screen and (max-width: 1024px) {
         padding: 20px 0;
-        flex-direction: column!important;
+        flex-direction: column !important;
         align-items: center;
         gap: 20px;
       }
+
       @media screen and (max-width: 640px) {
         padding: 20px 35px;
       }
@@ -1450,13 +1462,15 @@ a {
         max-width: 547px;
         position: relative;
         padding: 20px 30px 20px 60px;
+
         @media screen and (max-width: 1024px) {
           padding: 0;
         }
+
         @media screen and (max-width: 640px) {
           padding: 0 0 0 35px;
         }
-        
+
         &__eng {
           font-family: "Bodoni Moda";
           font-style: italic;
@@ -1468,6 +1482,7 @@ a {
           position: absolute;
           top: 65px;
           left: 16px;
+
           @media screen and (max-width: 1024px) {
             font-size: 1.4rem;
             top: 0;
@@ -1480,6 +1495,7 @@ a {
           color: #35763c;
           line-height: 1.5;
           margin-bottom: 28px;
+
           @media screen and (max-width: 1024px) {
             font-size: 2rem;
           }
@@ -1494,6 +1510,7 @@ a {
           font-size: 1.3rem;
           color: #3a3a3a;
           line-height: 2;
+
           @media screen and (max-width: 1024px) {
             font-size: 1.4rem;
           }
@@ -1508,6 +1525,7 @@ a {
         @media screen and (max-width: 1024px) {
           flex-shrink: unset;
         }
+
         img {
           width: 100%;
           height: 100%;
@@ -1615,6 +1633,7 @@ a {
     width: 100%;
     margin-bottom: 30px;
 
+
     &__btn {
       width: 100%;
       cursor: pointer;
@@ -1629,6 +1648,17 @@ a {
       background-color: #eee;
       font-size: 2.6rem;
       border: 1px solid #60af49;
+
+      .arrow {
+        transition: .5s;
+      }
+
+      &.active {
+        .arrow {
+          transform: rotate(180deg);
+
+        }
+      }
 
       @media screen and (max-width: 640px) {
         width: 49.5%;
@@ -1653,6 +1683,7 @@ a {
       @media screen and (max-width: 640px) {
         height: 50px;
       }
+
       &:hover {
         background-color: #60af49;
         color: #fff;
@@ -1667,7 +1698,7 @@ a {
 
   &__text {
     padding-bottom: 30px;
-    
+
     &__contents {
       font-size: 2rem;
       padding-bottom: 30px;
@@ -1734,7 +1765,7 @@ a {
 }
 
 //works
-.works  {
+.works {
   &__bg {
     background: url(./img/about_bg_01_pc.png) no-repeat top center;
     background-size: cover;
@@ -1827,6 +1858,7 @@ a {
     }
   }
 }
+
 .works__inner {
   width: 100%;
   max-width: 1200px;
@@ -1838,6 +1870,7 @@ a {
   width: 100%;
   position: relative;
   padding-left: 50px;
+
   @media screen and (max-width: 640px) {
     padding-left: 0;
   }
@@ -1851,6 +1884,7 @@ a {
   left: 0;
   writing-mode: vertical-rl;
   top: 0;
+
   @media screen and (max-width: 640px) {
     font-size: 1.2rem;
     position: relative;
@@ -1865,6 +1899,48 @@ a {
   color: #003214;
   font-family: "Bodoni Moda";
 }
+
+.y-scroll {
+  white-space: normal;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 1px;
+  }
+
+  &::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #015824;
+    border-radius: 0;
+
+    &:hover,
+    &:active {
+      background: #015824;
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ddd;
+    border: 0px none #ddd;
+    border-radius: 0;
+
+    &:hover,
+    &:active {
+      background: #ddd;
+    }
+  }
+
+  &::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0);
+  }
+}
+
 
 //footer 
 .footer {
